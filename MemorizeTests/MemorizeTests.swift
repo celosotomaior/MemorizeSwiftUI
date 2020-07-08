@@ -1,15 +1,15 @@
 //
-//  StanfordSwiftUITests.swift
-//  StanfordSwiftUITests
+//  MemorizeTests.swift
+//  MemorizeTests
 //
 //  Created by Marcelo Sotomaior on 23/06/2020.
 //  Copyright © 2020 Marcelo Sotomaior. All rights reserved.
 //
 
 import XCTest
-@testable import StanfordSwiftUI
+@testable import MemorizeSwiftUI
 
-class StanfordSwiftUITests: XCTestCase {
+class MemorizeTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

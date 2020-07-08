@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  StanfordSwiftUI
+//  MemorizeSwiftUI
 //
 //  Created by Marcelo Sotomaior on 23/06/2020.
 //  Copyright © 2020 Marcelo Sotomaior. All rights reserved.
@@ -20,7 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
+        let game = EmojiMemoryGame()
+        let contentView = EmojiMemoryGameView(viewModel: game)
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

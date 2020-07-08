@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  StanfordSwiftUI
+//  MemorizeSwiftUI
 //
 //  Created by Marcelo Sotomaior on 23/06/2020.
 //  Copyright © 2020 Marcelo Sotomaior. All rights reserved.
